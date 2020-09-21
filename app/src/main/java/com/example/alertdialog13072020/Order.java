@@ -44,4 +44,14 @@ public class Order {
     public void setVegetableType(VegetableType vegetableType) {
         this.vegetableType = vegetableType;
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "orderType=" + orderType +
+                ", breadType=" + breadType +
+                ", sauceType=" + sauceType +
+                ", vegetableType=" + vegetableType +
+                '}';
+    }
 }
